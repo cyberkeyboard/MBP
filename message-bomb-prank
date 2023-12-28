@@ -1,0 +1,16 @@
+import pyautogui
+import time 
+
+time.sleep(10)
+
+def message():
+    pyautogui.write("haha")
+    pyautogui.press('enter')
+
+while True:
+    message()
+    time.sleep(0)
+
+# How to usage 
+# log in WhatsApp web and open your Visual Studio Code, then write this code and  Run python file
+# this is python code    
